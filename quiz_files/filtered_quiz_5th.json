@@ -1,0 +1,148 @@
+{
+  "quiz": [
+    {
+      "question": "An alloy is BEST described as a:",
+      "options": [
+        "A) Pure metal solidified after melting.",
+        "B) Mixture of two or more metals and/or nonmetals.",
+        "C) Compound formed by the chemical reaction of two metals.",
+        "D) Metal that has been strengthened by heat treatment."
+      ],
+      "answer": "B",
+      "difficulty": "intermediate",
+      "section_title": "Changes in Matter",
+      "subsection_title": "Metals and Alloys",
+      "sub_title": "What are alloys?"
+    },
+    {
+      "question": "If the Sun's gravitational pull suddenly disappeared, what would happen to a planet in orbit?",
+      "options": [
+        "A) It would continue orbiting in the same path.",
+        "B) It would spiral inwards towards where the Sun was.",
+        "C) It would travel in a straight line tangent to its original orbit.",
+        "D) It would be pulled towards the nearest star."
+      ],
+      "answer": "C",
+      "difficulty": "intermediate",
+      "section_title": "The Solar System",
+      "subsection_title": "Gravity and Orbit",
+      "sub_title": ""
+    },
+    {
+      "question": "The formation of a thunderstorm typically begins with which atmospheric event?",
+      "options": [
+        "A) A sudden drop in air pressure near the ground",
+        "B) The rapid cooling and descent of dry air",
+        "C) The lifting of warm, humid air",
+        "D) The collision of two air masses of equal temperature"
+      ],
+      "answer": "C",
+      "difficulty": "intermediate",
+      "section_title": "Earth's Weather",
+      "subsection_title": "Severe Weather",
+      "sub_title": "What causes thunderstorms?"
+    },
+    {
+      "question": "The primary cause of Earth's tides is the gravitational pull between Earth and which celestial body?",
+      "options": [
+        "A) The Sun",
+        "B) The Moon",
+        "C) Both the Sun and the Moon equally",
+        "D) Another planet in our solar system"
+      ],
+      "answer": "B",
+      "difficulty": "easy",
+      "section_title": "The Solar System",
+      "subsection_title": "Gravity and Orbit",
+      "sub_title": "What causes tides?"
+    },
+    {
+      "question": "What is the simplest form of matter that cannot be broken down into other substances by ordinary chemical means?",
+      "options": [
+        "A) Compound",
+        "B) Mixture",
+        "C) Element",
+        "D) Solution"
+      ],
+      "answer": "C",
+      "difficulty": "easy",
+      "section_title": "Types of Matter",
+      "subsection_title": "Elements",
+      "sub_title": ""
+    },
+    {
+      "question": "Which of the following best describes a chemical change?",
+      "options": [
+        "A) A change in the state of matter, like ice melting into water.",
+        "B) A change in the shape or form of a substance, like crushing a can.",
+        "C) A change in which one or more substances are transformed into new substances with different properties.",
+        "D) A change in the location of a substance, like moving a book from a table to a shelf."
+      ],
+      "answer": "C",
+      "difficulty": "easy",
+      "section_title": "Changes in Matter",
+      "subsection_title": "Chemical Reactions",
+      "sub_title": "What are chemical changes?"
+    },
+    {
+      "question": "Which of the following best describes a mixture?",
+      "options": [
+        "A) A substance formed by chemically bonding two or more elements.",
+        "B) A combination of two or more substances that retain their individual properties and can be separated.",
+        "C) A single element or compound in its pure form.",
+        "D) A material that always looks uniform throughout, regardless of its components."
+      ],
+      "answer": "B",
+      "difficulty": "intermediate",
+      "section_title": "Types of Matter",
+      "subsection_title": "Mixtures",
+      "sub_title": "What is a mixture?"
+    },
+    {
+      "question": "Which property would be MOST useful in distinguishing between two unknown clear, colorless liquids?",
+      "options": [
+        "A) Their ability to put out a flame",
+        "B) Their boiling points",
+        "C) Their gaseous state at room temperature",
+        "D) Their density relative to air"
+      ],
+      "answer": "B",
+      "difficulty": "intermediate",
+      "section_title": "Types of Matter",
+      "subsection_title": "Compounds",
+      "sub_title": "How can you identify compounds?"
+    },
+    {
+      "question": "While riding a bicycle, several organ systems work together. Which of the following systems is primarily responsible for delivering oxygen from the lungs to the rest of the body?",
+      "options": [
+        "A) Skeletal system",
+        "B) Muscular system",
+        "C) Respiratory system",
+        "D) Circulatory system"
+      ],
+      "answer": "D",
+      "difficulty": "easy",
+      "section_title": "Human Body Systems",
+      "subsection_title": "The Human Body",
+      "sub_title": "What do organ systems do?"
+    },
+    {
+      "question": "A barometer measures changes in which of the following?",
+      "options": [
+        "A) Wind speed",
+        "B) Air temperature",
+        "C) Air pressure",
+        "D) Precipitation"
+      ],
+      "answer": "C",
+      "difficulty": "easy",
+      "section_title": "Earth's Weather",
+      "subsection_title": "Earth's Atmosphere",
+      "sub_title": "What is a barometer?"
+    }
+  ],
+  "total_questions": 10,
+  "source_pdf": "files/science-textbook-grade-5.pdf",
+  "curriculum_file": "json_files/learning_path_skeleton_5th.json",
+  "output_file": "quiz_files/quiz_output_5th.json"
+}

@@ -1,0 +1,1445 @@
+{
+  "user_zone": "fast-learner and advanced",
+  "learning_path": [
+    {
+      "topic": "Structure of Living Things",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Cells",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are plants and animals made of?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 180,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How can cells be seen?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 173,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are the parts of cells?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 187,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "From Cells to Organisms",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How are living things organized?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 166,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How do cells work together?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 136,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Diversity of Organisms",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How are living things grouped together?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 184,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What do animals have in common?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 184,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are plants?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 180,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are fungi?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 152,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are bacteria?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 145,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are protists?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 134,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Plant Structure and Functions",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Vascular Plants",
+      "pace": "7 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are vascular plants?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 137,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How are seedless and seed plants different?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 182,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What do flowers do?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 150,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Plant Transport Systems",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How do materials move in plants?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 123,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is the transport system made of?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 123,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Photosynthesis and Respiration",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What do leaves do?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 153,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is a cycle in plants and animals?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 160,
+      "code_lines": 0,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "Human Body Systems",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Human Body",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are organ systems?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 208,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What do organ systems do?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 145,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How are materials transported?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 165,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Digestive System",
+      "pace": "7 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is digestion?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 166,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How does it start?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 141,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How is food broken down further?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 169,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is the large intestine?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 151,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Respiratory System",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What does the respiratory system do?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 186,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Where are gases exchanged?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 126,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Respiration in the Cells",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 180,
+      "code_lines": 0,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Circulatory System",
+      "pace": "7 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 430,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How does blood transport materials?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 169,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How can systems work together?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 103,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is blood?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 190,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How do vessels and valves work?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 190,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Excretory System",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 297,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is the excretory system?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 174,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How does your kidney work?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 128,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How does your body get rid of liquid wastes?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 118,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Skin",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 167,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Earth's Water",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 297,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Earth: The Blue Planet",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 297,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How much of Earth is covered with water?",
+      "pace": "4 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 120,
+      "code_lines": 0,
+      "math_lines": 5,
+      "table_lines": 0
+    },
+    {
+      "topic": "What makes oceans salty?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 108,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Water Cycle",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 297,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What makes water change form?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 170,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What happens to water after it evaporates?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 191,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How do clouds form?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 151,
+      "code_lines": 1,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Will it rain?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 147,
+      "code_lines": 1,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How is water recycled?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 70,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Freshwater Resources",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 144,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Where is freshwater found?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 144,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is a watershed?",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 149,
+      "code_lines": 0,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "How is water polluted?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 149,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How is water cleaned?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 116,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "California's Water Supply",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 297,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Where is our fresh water from?",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 176,
+      "code_lines": 0,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "How is our fresh water supplied?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 145,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How can we save water?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 196,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Earth's Weather",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Earth's Atmosphere",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is air pressure?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 147,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What can make air pressure change?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 184,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is a barometer?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 190,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Air Currents and Wind",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Why are temperatures different?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 126,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How is air pressure different over land and water?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 134,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are global winds?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 149,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Oceans and Air Temperature",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How do oceans affect temperature on land?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 176,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are ocean currents?",
+      "pace": "6 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 236,
+      "code_lines": 0,
+      "math_lines": 8,
+      "table_lines": 0
+    },
+    {
+      "topic": "What causes El Niño?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 146,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Severe Weather",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What causes severe weather?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 127,
+      "code_lines": 1,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What causes thunderstorms?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 123,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are tornadoes?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 161,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are hurricanes?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 169,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are other forms of severe weather?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 137,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Predicting the Weather",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Who needs to know what the weather will be?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 154,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What do weather fronts tell you?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 113,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are lows and highs?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 170,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Collecting Weather Information",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 125,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Solar System",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Sun",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is the Sun?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 161,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are the parts of the Sun?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 139,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The Structure of the Solar System",
+      "pace": "6 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is the solar system?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 167,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What else is in the solar system?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 152,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Gravity and Orbit",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is gravity?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 162,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What keeps objects in orbit?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 160,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What causes tides?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 167,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Types of Matter",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Properties of Matter",
+      "pace": "6 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 417,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is matter?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 216,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are states of matter?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 164,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is density?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 186,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Can the state of matter change?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 157,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Elements",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 392,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is an element?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 119,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 1
+    },
+    {
+      "topic": "What are the most common elements?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 192,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Elements in Living Things",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 165,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Classifying Elements",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 392,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are atoms made of?",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 197,
+      "code_lines": 0,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are properties of elements?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 139,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Can we see atoms?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 192,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is the periodic table?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 136,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Mixtures",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 392,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is a mixture?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 188,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are the parts of a solution?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 138,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How can you take mixtures apart?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 187,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Compounds",
+      "pace": "6 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 392,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What change produces new substances?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 139,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How are compounds named?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 158,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How can you identify compounds?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 198,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How are compounds used?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 150,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Changes in Matter",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 392,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Chemical Reactions",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 392,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are chemical changes?",
+      "pace": "0 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 140,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Which elements are most likely to change?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 162,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are the signs of a chemical change?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 158,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Metals and Alloys",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 392,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are metals?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 164,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 1
+    },
+    {
+      "topic": "What do metals have in common?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 187,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are metal compounds?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 157,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are alloys?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 203,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Salts",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 392,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What is a salt?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 152,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "What are acids and bases?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 151,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "How strong are acids and bases?",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 171,
+      "code_lines": 0,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "How do we use salts?",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 170,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Getting Salt",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 191,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    }
+  ]
+}

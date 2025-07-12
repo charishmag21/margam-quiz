@@ -1,0 +1,1371 @@
+{
+  "sections": [
+    {
+      "section_id": "S1",
+      "title": "Introduction to SQL",
+      "brief": "An introduction to SQL (Structured Query Language), a standardized language for managing data in relational database management systems (RDBMS). It covers the basics of SQL and its capabilities, including querying, retrieving, inserting, updating, and deleting data.",
+      "subsections": [
+        {
+          "subsection_id": "S1.1",
+          "title": "Data Definition Language (DDL)",
+          "sub_titles": [],
+          "brief": "Covers Data Definition Language (DDL) which manages table and index structure. Explains CREATE, ALTER, RENAME, and DROP statements for creating, modifying, and deleting database objects.",
+          "quizzes": [
+            {
+              "question": "Which of the following SQL commands is NOT classified as Data Definition Language (DDL)?",
+              "options": [
+                "A) CREATE TABLE",
+                "B) ALTER TABLE",
+                "C) INSERT INTO",
+                "D) DROP TABLE"
+              ],
+              "answer": "C",
+              "difficulty": "easy",
+              "section_title": "Introduction to SQL",
+              "subsection_title": "Data Definition Language (DDL)",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S1.2",
+          "title": "Data Manipulation Language (DML)",
+          "sub_titles": [],
+          "brief": "Covers Data Manipulation Language (DML) used for adding, updating, and deleting data. Explains the CRUD operations (Create, Read, Update, Delete) and their corresponding SQL statements (INSERT INTO, SELECT, UPDATE, DELETE).",
+          "quizzes": [
+            {
+              "question": "Which of the following SQL operations is NOT classified as Data Manipulation Language (DML)?",
+              "options": [
+                "A) INSERT",
+                "B) UPDATE",
+                "C) DELETE",
+                "D) CREATE"
+              ],
+              "answer": "D",
+              "difficulty": "easy",
+              "section_title": "Introduction to SQL",
+              "subsection_title": "Data Manipulation Language (DML)",
+              "sub_title": ""
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "question": "Which SQL category encompasses commands like `CREATE`, `ALTER`, and `DROP`, used for defining database structures?",
+          "options": [
+            "A) Data Manipulation Language (DML)",
+            "B) Data Query Language (DQL)",
+            "C) Data Control Language (DCL)",
+            "D) Data Definition Language (DDL)"
+          ],
+          "answer": "D",
+          "difficulty": "easy",
+          "section_title": "Introduction to SQL",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S2",
+      "title": "Introduction to SQL Server",
+      "brief": "An introduction to Microsoft SQL Server and its components, including the Database Engine and Management Studio. Explains the different editions of SQL Server and the use of T-SQL (Transact-SQL).",
+      "subsections": [
+        {
+          "subsection_id": "S2.1",
+          "title": "SQL Server Management Studio",
+          "sub_titles": [
+            "Create a new Database",
+            "Queries"
+          ],
+          "brief": "Introduces SQL Server Management Studio (SSMS), a GUI tool for managing SQL Server. Describes the Object Explorer and query windows, and how to use them for database administration and querying.",
+          "quizzes": [
+            {
+              "question": "Which of the following tasks can be directly performed within SQL Server Management Studio (SSMS)?",
+              "options": [
+                "A) Defining database relationships using Entity-Relationship Diagrams (ERDs)",
+                "B) Executing SQL queries and viewing their results",
+                "C) Compiling and running C# code to interact with the database",
+                "D) Managing user access and permissions on the operating system level"
+              ],
+              "answer": "B",
+              "difficulty": "intermediate",
+              "section_title": "Introduction to SQL Server",
+              "subsection_title": "SQL Server Management Studio",
+              "sub_title": ""
+            }
+          ],
+          "sub_title_quizzes": {
+            "Create a new Database": [
+              {
+                "question": "Which of the following is NOT typically a direct step involved in creating a new database?",
+                "options": [
+                  "A) Defining the database name.",
+                  "B) Specifying the initial data size.",
+                  "C) Populating tables with initial data.",
+                  "D) Setting the database character set."
+                ],
+                "answer": "C",
+                "difficulty": "intermediate",
+                "section_title": "Introduction to SQL Server",
+                "subsection_title": "SQL Server Management Studio",
+                "sub_title": "Create a new Database"
+              }
+            ],
+            "Queries": [
+              {
+                "question": "Which SQL clause is used to filter records in a query based on specified criteria?",
+                "options": [
+                  "A) ORDER BY",
+                  "B) WHERE",
+                  "C) SELECT",
+                  "D) FROM"
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "Introduction to SQL Server",
+                "subsection_title": "SQL Server Management Studio",
+                "sub_title": "Queries"
+              }
+            ]
+          }
+        }
+      ],
+      "quizzes": [
+        {
+          "question": "Which tool is commonly used for interacting with and managing SQL Server databases?",
+          "options": [
+            "A) MySQL Workbench",
+            "B) SQL Server Management Studio",
+            "C) pgAdmin",
+            "D) Oracle SQL Developer"
+          ],
+          "answer": "B",
+          "difficulty": "easy",
+          "section_title": "Introduction to SQL Server",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S3",
+      "title": "CREATE TABLE",
+      "brief": "Explains the CREATE TABLE statement for creating tables in a database. Covers data types, constraints, and best practices for table design.",
+      "subsections": [
+        {
+          "subsection_id": "S3.1",
+          "title": "Database Modelling",
+          "sub_titles": [],
+          "brief": "Emphasizes the importance of database modeling before implementation. Introduces database modeling tools like ERwin and demonstrates how to transfer models to SQL Server.",
+          "quizzes": [
+            {
+              "question": "A crucial step in designing a robust and efficient database involves organizing data into interconnected tables with clearly defined relationships. This process, which helps ensure data integrity and efficient querying, is best described as:",
+              "options": [
+                "A) Data Manipulation Language (DML)",
+                "B) Database Modelling",
+                "C) Data Definition Language (DDL)",
+                "D) SQL Server Management Studio"
+              ],
+              "answer": "B",
+              "difficulty": "intermediate",
+              "section_title": "CREATE TABLE",
+              "subsection_title": "Database Modelling",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S3.2",
+          "title": "Create Tables using the Designer Tools",
+          "sub_titles": [],
+          "brief": "Demonstrates how to create tables using the designer tools in SQL Server Management Studio, providing a visual alternative to writing SQL scripts.",
+          "quizzes": [
+            {
+              "question": "When using designer tools to create a table, which action typically saves the table structure to the database?",
+              "options": [
+                "A) Clicking a 'Save' icon or selecting 'Save' from a menu.",
+                "B) Closing the designer tool window.",
+                "C) Running a SELECT query against the new table.",
+                "D) Dragging and dropping columns within the designer."
+              ],
+              "answer": "A",
+              "difficulty": "easy",
+              "section_title": "CREATE TABLE",
+              "subsection_title": "Create Tables using the Designer Tools",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S3.3",
+          "title": "SQL Constraints",
+          "sub_titles": [
+            "PRIMARY KEY",
+            "FOREIGN KEY",
+            "NOT NULL / Required Columns",
+            "UNIQUE",
+            "CHECK",
+            "DEFAULT",
+            "AUTO INCREMENT or IDENTITY"
+          ],
+          "brief": "Explains SQL constraints used to limit the type of data in a table. Covers PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, CHECK, DEFAULT, and IDENTITY constraints.",
+          "quizzes": [
+            {
+              "question": "You have a table representing customers with columns for customer ID, name, email, and phone number. You want to ensure that each customer has a unique email address and that it's always provided. Which constraint(s) should you use?",
+              "options": [
+                "A) PRIMARY KEY on email",
+                "B) UNIQUE and NOT NULL on email",
+                "C) FOREIGN KEY on email",
+                "D) CHECK on email"
+              ],
+              "answer": "B",
+              "difficulty": "intermediate",
+              "section_title": "CREATE TABLE",
+              "subsection_title": "SQL Constraints",
+              "sub_title": ""
+            }
+          ],
+          "sub_title_quizzes": {
+            "PRIMARY KEY": [
+              {
+                "question": "A PRIMARY KEY constraint is used for what purpose?",
+                "options": [
+                  "A) To ensure that all columns in a table have a value.",
+                  "B) To uniquely identify each row in a table.",
+                  "C) To establish a relationship between two tables.",
+                  "D) To restrict the data type of a column."
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "CREATE TABLE",
+                "subsection_title": "SQL Constraints",
+                "sub_title": "PRIMARY KEY"
+              }
+            ],
+            "FOREIGN KEY": [
+              {
+                "question": "A foreign key constraint is primarily used to:",
+                "options": [
+                  "A) Ensure that a column contains only unique values.",
+                  "B) Enforce referential integrity between two tables.",
+                  "C) Prevent null values in a specific column.",
+                  "D) Automatically generate values for a column."
+                ],
+                "answer": "B",
+                "difficulty": "intermediate",
+                "section_title": "CREATE TABLE",
+                "subsection_title": "SQL Constraints",
+                "sub_title": "FOREIGN KEY"
+              }
+            ],
+            "NOT NULL / Required Columns": [
+              {
+                "question": "When defining a table, which constraint ensures that a column cannot contain NULL values?",
+                "options": [
+                  "A) UNIQUE",
+                  "B) CHECK",
+                  "C) NOT NULL",
+                  "D) DEFAULT"
+                ],
+                "answer": "C",
+                "difficulty": "easy",
+                "section_title": "CREATE TABLE",
+                "subsection_title": "SQL Constraints",
+                "sub_title": "NOT NULL / Required Columns"
+              }
+            ],
+            "UNIQUE": [
+              {
+                "question": "Which SQL constraint ensures that all values in a column are distinct, allowing NULL values?",
+                "options": [
+                  "A) PRIMARY KEY",
+                  "B) FOREIGN KEY",
+                  "C) NOT NULL",
+                  "D) UNIQUE"
+                ],
+                "answer": "D",
+                "difficulty": "easy",
+                "section_title": "CREATE TABLE",
+                "subsection_title": "SQL Constraints",
+                "sub_title": "UNIQUE"
+              }
+            ],
+            "CHECK": [
+              {
+                "question": "Which constraint is used to limit the range of values that can be placed in a column?",
+                "options": [
+                  "A) UNIQUE",
+                  "B) NOT NULL",
+                  "C) CHECK",
+                  "D) FOREIGN KEY"
+                ],
+                "answer": "C",
+                "difficulty": "easy",
+                "section_title": "CREATE TABLE",
+                "subsection_title": "SQL Constraints",
+                "sub_title": "CHECK"
+              }
+            ],
+            "DEFAULT": [
+              {
+                "question": "In SQL, the `DEFAULT` constraint is used to:",
+                "options": [
+                  "A) Ensure that a column does not accept duplicate values.",
+                  "B) Automatically generate a value for a column if no value is specified during insertion.",
+                  "C) Define a relationship between tables based on matching columns.",
+                  "D) Specify the data type of a column."
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "CREATE TABLE",
+                "subsection_title": "SQL Constraints",
+                "sub_title": "DEFAULT"
+              }
+            ],
+            "AUTO INCREMENT or IDENTITY": [
+              {
+                "question": "Which statement best describes the function of an AUTO INCREMENT or IDENTITY constraint on a table column?",
+                "options": [
+                  "A) It ensures that all values in the column are unique and not NULL.",
+                  "B) It automatically generates a unique sequential number for each new row inserted into the table.",
+                  "C) It specifies a default value for the column if no value is provided during insertion.",
+                  "D) It establishes a relationship between two tables based on matching column values."
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "CREATE TABLE",
+                "subsection_title": "SQL Constraints",
+                "sub_title": "AUTO INCREMENT or IDENTITY"
+              }
+            ]
+          }
+        },
+        {
+          "subsection_id": "S3.4",
+          "title": "ALTER TABLE",
+          "sub_titles": [],
+          "brief": "Explains the ALTER TABLE statement for modifying existing tables. Covers adding, deleting, and modifying columns, and demonstrates how to create robust database scripts using CREATE TABLE and ALTER TABLE together.",
+          "quizzes": [
+            {
+              "question": "Which command is used to modify the structure of an existing table, such as adding, deleting, or modifying columns?",
+              "options": [
+                "A) MODIFY TABLE",
+                "B) ALTER TABLE",
+                "C) UPDATE TABLE",
+                "D) CHANGE TABLE"
+              ],
+              "answer": "B",
+              "difficulty": "easy",
+              "section_title": "CREATE TABLE",
+              "subsection_title": "ALTER TABLE",
+              "sub_title": ""
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "question": "Which SQL keyword is used to create a new table in a database?",
+          "options": [
+            "A) MAKE TABLE",
+            "B) CREATE TABLE",
+            "C) NEW TABLE",
+            "D) DEFINE TABLE"
+          ],
+          "answer": "B",
+          "difficulty": "easy",
+          "section_title": "CREATE TABLE",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S4",
+      "title": "INSERT INTO",
+      "brief": "Explains the INSERT INTO statement for inserting new rows into a table. Covers two forms of the statement, inserting data into specific columns, and using the designer tools for data insertion.",
+      "subsections": [],
+      "quizzes": [
+        {
+          "question": "You have a table named 'Customers' with columns 'CustomerID', 'FirstName', and 'LastName'. You want to add a new customer with ID 101, first name 'John', and last name 'Doe'. Which SQL statement is correct?",
+          "options": [
+            "A) INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (101, 'John', 'Doe');",
+            "B) INSERT INTO Customers VALUES (101, 'John', 'Doe');",
+            "C) INSERT INTO Customers (101, 'John', 'Doe') VALUES (CustomerID, FirstName, LastName);",
+            "D) INSERT (101, 'John', 'Doe') INTO Customers (CustomerID, FirstName, LastName);"
+          ],
+          "answer": "A",
+          "difficulty": "intermediate",
+          "section_title": "INSERT INTO",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S5",
+      "title": "UPDATE",
+      "brief": "Explains the UPDATE statement for updating existing records in a table. Emphasizes the importance of the WHERE clause and demonstrates how to update data using the designer tools.",
+      "subsections": [],
+      "quizzes": [
+        {
+          "question": "You have a table named 'Employees' with columns 'EmployeeID', 'Name', and 'Salary'.  You want to increase the salary of the employee with EmployeeID 101 by 10%. Which SQL statement achieves this?",
+          "options": [
+            "A) `UPDATE Employees SET Salary = Salary + 10 WHERE EmployeeID = 101`",
+            "B) `UPDATE Employees SET Salary = Salary * 1.1 WHERE EmployeeID = 101`",
+            "C) `UPDATE Employees SET Salary = Salary * 0.1 WHERE EmployeeID = 101`",
+            "D) `UPDATE Employees SET Salary = Salary + (Salary * 0.1) WHERE EmployeeID = '101'`"
+          ],
+          "answer": "B",
+          "difficulty": "intermediate",
+          "section_title": "UPDATE",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S6",
+      "title": "DELETE",
+      "brief": "Explains the DELETE statement for deleting rows from a table. Emphasizes the importance of the WHERE clause and demonstrates how to delete data using the designer tools.",
+      "subsections": [],
+      "quizzes": [
+        {
+          "question": "If a WHERE clause is omitted from a DELETE statement, what happens?",
+          "options": [
+            "A) Only the first row in the table is deleted.",
+            "B) All rows in the table are deleted.",
+            "C)  An error is returned, and no rows are deleted.",
+            "D) No rows are deleted."
+          ],
+          "answer": "B",
+          "difficulty": "intermediate",
+          "section_title": "DELETE",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S7",
+      "title": "SELECT",
+      "brief": "Explains the SELECT statement for retrieving data from a database. Covers selecting specific columns, the ORDER BY keyword, SELECT DISTINCT, the WHERE clause, wildcards, AND & OR operators, SELECT TOP, aliases, and joins.",
+      "subsections": [
+        {
+          "subsection_id": "S7.1",
+          "title": "The ORDER BY Keyword",
+          "sub_titles": [],
+          "brief": "Explains the ORDER BY keyword for sorting query results in ascending or descending order.",
+          "quizzes": [
+            {
+              "question": "You want to retrieve data from a table and ensure the results are sorted based on a specific column. Which keyword should you use?",
+              "options": [
+                "A) SORT BY",
+                "B) ARRANGE BY",
+                "C) ORDER BY",
+                "D) GROUP BY"
+              ],
+              "answer": "C",
+              "difficulty": "easy",
+              "section_title": "SELECT",
+              "subsection_title": "The ORDER BY Keyword",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S7.2",
+          "title": "SELECT DISTINCT",
+          "sub_titles": [],
+          "brief": "Explains the DISTINCT keyword for retrieving only unique values from a column.",
+          "quizzes": [
+            {
+              "question": "You have a table named 'Customers' with a column 'City'.  Several customers reside in the same city. You want to retrieve a list of all the unique cities present in the 'Customers' table. Which SQL keyword would you use to achieve this?",
+              "options": [
+                "A) UNIQUE",
+                "B) DISTINCT",
+                "C) DIFFERENT",
+                "D) ONLY"
+              ],
+              "answer": "B",
+              "difficulty": "easy",
+              "section_title": "SELECT",
+              "subsection_title": "SELECT DISTINCT",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S7.3",
+          "title": "The WHERE Clause",
+          "sub_titles": [
+            "Operators",
+            "LIKE Operator",
+            "IN Operator",
+            "BETWEEN Operator"
+          ],
+          "brief": "Explains the WHERE clause for filtering query results based on specified criteria. Covers various operators, including LIKE, IN, and BETWEEN.",
+          "quizzes": [
+            {
+              "question": "You need to retrieve data from a table but only want rows where a specific column's value falls within a certain range.  Which SQL clause should you use?",
+              "options": [
+                "A) ORDER BY",
+                "B) SELECT DISTINCT",
+                "C) WHERE",
+                "D) JOIN"
+              ],
+              "answer": "C",
+              "difficulty": "easy",
+              "section_title": "SELECT",
+              "subsection_title": "The WHERE Clause",
+              "sub_title": ""
+            }
+          ],
+          "sub_title_quizzes": {
+            "Operators": [
+              {
+                "question": "In a SQL WHERE clause, which operator would you use to check if a value falls within a specific range?",
+                "options": [
+                  "A) LIKE",
+                  "B) IN",
+                  "C) BETWEEN",
+                  "D) EXISTS"
+                ],
+                "answer": "C",
+                "difficulty": "easy",
+                "section_title": "SELECT",
+                "subsection_title": "The WHERE Clause",
+                "sub_title": "Operators"
+              }
+            ],
+            "LIKE Operator": [
+              {
+                "question": "Which pattern would the LIKE operator match against the string 'banana' using the expression `LIKE 'ban%'`?",
+                "options": [
+                  "A) 'ban'",
+                  "B) 'banana'",
+                  "C) 'bandana'",
+                  "D) 'bananasplit'"
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "SELECT",
+                "subsection_title": "The WHERE Clause",
+                "sub_title": "LIKE Operator"
+              }
+            ],
+            "IN Operator": [
+              {
+                "question": "Which of the following best describes the purpose of the IN operator in SQL?",
+                "options": [
+                  "A) To check if a value matches any value within a specified set of values.",
+                  "B) To check if a value falls within a specified range of values.",
+                  "C) To search for patterns within a string.",
+                  "D) To combine multiple conditions in a WHERE clause."
+                ],
+                "answer": "A",
+                "difficulty": "easy",
+                "section_title": "SELECT",
+                "subsection_title": "The WHERE Clause",
+                "sub_title": "IN Operator"
+              }
+            ],
+            "BETWEEN Operator": [
+              {
+                "question": "You need to retrieve records where a column's value falls within a specific range. Which operator is most suitable?",
+                "options": [
+                  "A) LIKE",
+                  "B) IN",
+                  "C) BETWEEN",
+                  "D) EXISTS"
+                ],
+                "answer": "C",
+                "difficulty": "easy",
+                "section_title": "SELECT",
+                "subsection_title": "The WHERE Clause",
+                "sub_title": "BETWEEN Operator"
+              }
+            ]
+          }
+        },
+        {
+          "subsection_id": "S7.4",
+          "title": "Wildcards",
+          "sub_titles": [],
+          "brief": "Explains the use of wildcards with the LIKE operator for pattern matching in queries.",
+          "quizzes": [
+            {
+              "question": "In a database query, you need to find all entries where a text field starts with \"App\". Which wildcard character, used with the LIKE operator, would achieve this?",
+              "options": [
+                "A) %",
+                "B) _",
+                "C) *",
+                "D) ?"
+              ],
+              "answer": "A",
+              "difficulty": "easy",
+              "section_title": "SELECT",
+              "subsection_title": "Wildcards",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S7.5",
+          "title": "AND & OR Operators",
+          "sub_titles": [],
+          "brief": "Explains the use of AND and OR operators for combining multiple conditions in the WHERE clause.",
+          "quizzes": [
+            {
+              "question": "In a SQL WHERE clause, if you use both AND and OR operators without parentheses, which operator is evaluated first?",
+              "options": [
+                "A) OR",
+                "B) AND",
+                "C) They are evaluated from left to right.",
+                "D) They are evaluated randomly."
+              ],
+              "answer": "B",
+              "difficulty": "intermediate",
+              "section_title": "SELECT",
+              "subsection_title": "AND & OR Operators",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S7.6",
+          "title": "SELECT TOP Clause",
+          "sub_titles": [],
+          "brief": "Explains the TOP clause for limiting the number of rows returned by a query.",
+          "quizzes": [
+            {
+              "question": "You want to retrieve only the three most recently added entries from a table called 'RecentOrders' which has a column 'OrderDate'. Which query achieves this?",
+              "options": [
+                "A) `SELECT TOP 3 * FROM RecentOrders ORDER BY OrderDate DESC`",
+                "B) `SELECT TOP 3 * FROM RecentOrders WHERE OrderDate = MAX(OrderDate)`",
+                "C) `SELECT * FROM RecentOrders LIMIT 3`",
+                "D) `SELECT * FROM RecentOrders WHERE OrderDate IN (SELECT TOP 3 OrderDate FROM RecentOrders)`"
+              ],
+              "answer": "A",
+              "difficulty": "intermediate",
+              "section_title": "SELECT",
+              "subsection_title": "SELECT TOP Clause",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S7.7",
+          "title": "Alias",
+          "sub_titles": [],
+          "brief": "Explains the use of aliases to give tables or columns temporary names in queries.",
+          "quizzes": [
+            {
+              "question": "In SQL, what is the primary purpose of using an alias?",
+              "options": [
+                "A) To create a temporary variable for storing data.",
+                "B) To rename a column or table for easier referencing.",
+                "C) To define a new data type for a column.",
+                "D) To filter results based on specific criteria."
+              ],
+              "answer": "B",
+              "difficulty": "easy",
+              "section_title": "SELECT",
+              "subsection_title": "Alias",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S7.8",
+          "title": "Joins",
+          "sub_titles": [
+            "Different SQL JOINs"
+          ],
+          "brief": "Explains the concept of joins for querying data from multiple tables based on relationships between columns. Covers different types of joins, including INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.",
+          "quizzes": [
+            {
+              "question": "You need to retrieve data from two tables based on a shared column. Which SQL clause would you use to combine the results?",
+              "options": [
+                "A) UNION",
+                "B) INTERSECT",
+                "C) JOIN",
+                "D) EXCEPT"
+              ],
+              "answer": "C",
+              "difficulty": "easy",
+              "section_title": "SELECT",
+              "subsection_title": "Joins",
+              "sub_title": ""
+            }
+          ],
+          "sub_title_quizzes": {
+            "Different SQL JOINs": [
+              {
+                "question": "You need to retrieve data from two tables, but only include rows where a matching value exists in both tables based on a shared column. Which JOIN type should you use?",
+                "options": [
+                  "A) LEFT JOIN",
+                  "B) RIGHT JOIN",
+                  "C) FULL OUTER JOIN",
+                  "D) INNER JOIN"
+                ],
+                "answer": "D",
+                "difficulty": "easy",
+                "section_title": "SELECT",
+                "subsection_title": "Joins",
+                "sub_title": "Different SQL JOINs"
+              }
+            ]
+          }
+        }
+      ],
+      "quizzes": [
+        {
+          "question": "You want to retrieve all unique values from a specific column in a table. Which keyword should you use in conjunction with the SELECT statement?",
+          "options": [
+            "A) UNIQUE",
+            "B) DISTINCT",
+            "C) DIFFERENT",
+            "D) ONLY"
+          ],
+          "answer": "B",
+          "difficulty": "easy",
+          "section_title": "SELECT",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S8",
+      "title": "SQL Scripts",
+      "brief": "Explains SQL scripts, which are collections of SQL statements. Covers using comments, variables, built-in global variables, and flow control statements.",
+      "subsections": [
+        {
+          "subsection_id": "S8.1",
+          "title": "Using Comments",
+          "sub_titles": [
+            "Single-line comment",
+            "Multiple-line comment"
+          ],
+          "brief": "Explains how to use single-line and multi-line comments in SQL scripts.",
+          "quizzes": [
+            {
+              "question": "Which of the following correctly demonstrates a multi-line comment in SQL?",
+              "options": [
+                "A) /* This is a \n multi-line comment */",
+                "B) -- This is a \n multi-line comment",
+                "C) # This is a \n multi-line comment",
+                "D) // This is a \n multi-line comment"
+              ],
+              "answer": "A",
+              "difficulty": "easy",
+              "section_title": "SQL Scripts",
+              "subsection_title": "Using Comments",
+              "sub_title": ""
+            }
+          ],
+          "sub_title_quizzes": {
+            "Single-line comment": [
+              {
+                "question": "Which symbol is used to indicate a single-line comment in SQL?",
+                "options": [
+                  "A) /* */",
+                  "B) --",
+                  "C) //",
+                  "D) #"
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "SQL Scripts",
+                "subsection_title": "Using Comments",
+                "sub_title": "Single-line comment"
+              }
+            ],
+            "Multiple-line comment": [
+              {
+                "question": "Which of the following correctly demonstrates a multiple-line comment in SQL?",
+                "options": [
+                  "A) -- This is a\n-- multi-line comment",
+                  "B) /* This is a\nmulti-line comment */",
+                  "C) # This is a\n# multi-line comment",
+                  "D) ''' This is a\nmulti-line comment '''"
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "SQL Scripts",
+                "subsection_title": "Using Comments",
+                "sub_title": "Multiple-line comment"
+              }
+            ]
+          }
+        },
+        {
+          "subsection_id": "S8.2",
+          "title": "Variables",
+          "sub_titles": [],
+          "brief": "Explains how to declare and use variables in SQL scripts.",
+          "quizzes": [
+            {
+              "question": "In SQL, how are variables typically declared and assigned values?",
+              "options": [
+                "A) Using the `SET` keyword followed by the variable name and its value.",
+                "B) Using the `DECLARE` keyword followed by the variable name, data type, and an optional initial value.",
+                "C) By directly assigning a value to a variable name without any prior declaration.",
+                "D) Using the `DEFINE` keyword followed by the variable name and its value, similar to constants."
+              ],
+              "answer": "B",
+              "difficulty": "intermediate",
+              "section_title": "SQL Scripts",
+              "subsection_title": "Variables",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S8.3",
+          "title": "Built-in Global Variables",
+          "sub_titles": [
+            "@@IDENTITY"
+          ],
+          "brief": "Explains built-in global variables, such as @@IDENTITY, and their uses.",
+          "quizzes": [
+            {
+              "question": "Which built-in global variable would you use to retrieve the last identity value inserted into an identity column?",
+              "options": [
+                "A) @@ROWCOUNT",
+                "B) @@ERROR",
+                "C) @@IDENTITY",
+                "D) @@VERSION"
+              ],
+              "answer": "C",
+              "difficulty": "easy",
+              "section_title": "SQL Scripts",
+              "subsection_title": "Built-in Global Variables",
+              "sub_title": ""
+            }
+          ],
+          "sub_title_quizzes": {
+            "@@IDENTITY": [
+              {
+                "question": "After inserting a new row into a table with an IDENTITY column, how can you retrieve the value automatically assigned to that row's IDENTITY column?",
+                "options": [
+                  "A) By querying the last inserted row using a timestamp.",
+                  "B) By using the @@IDENTITY global variable.",
+                  "C) By querying the table's metadata for the next expected IDENTITY value.",
+                  "D) By using the SCOPE_IDENTITY() function."
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "SQL Scripts",
+                "subsection_title": "Built-in Global Variables",
+                "sub_title": "@@IDENTITY"
+              }
+            ]
+          }
+        },
+        {
+          "subsection_id": "S8.4",
+          "title": "Flow Control",
+          "sub_titles": [
+            "IF – ELSE",
+            "WHILE",
+            "CASE",
+            "CURSOR"
+          ],
+          "brief": "Explains flow control statements in SQL scripts, including IF-ELSE, WHILE, CASE, and CURSOR.",
+          "quizzes": [
+            {
+              "question": "Which flow control statement in SQL allows you to execute a block of code repeatedly as long as a specified condition is true?",
+              "options": [
+                "A) IF-ELSE",
+                "B) WHILE",
+                "C) CASE",
+                "D) FOR"
+              ],
+              "answer": "B",
+              "difficulty": "easy",
+              "section_title": "SQL Scripts",
+              "subsection_title": "Flow Control",
+              "sub_title": ""
+            }
+          ],
+          "sub_title_quizzes": {
+            "IF – ELSE": [
+              {
+                "question": "In SQL, what is the primary function of an IF-ELSE statement?",
+                "options": [
+                  "A) To define variables for later use in queries.",
+                  "B) To conditionally execute a block of code based on a boolean expression.",
+                  "C) To loop through a set of results until a condition is met.",
+                  "D) To join two tables based on a common column."
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "SQL Scripts",
+                "subsection_title": "Flow Control",
+                "sub_title": "IF – ELSE"
+              }
+            ],
+            "WHILE": [
+              {
+                "question": "In SQL, a WHILE loop continues to execute its code block as long as what condition is met?",
+                "options": [
+                  "A) The loop counter reaches a predefined value.",
+                  "B) A specified condition evaluates to true.",
+                  "C) The loop counter reaches zero.",
+                  "D) A specified condition evaluates to false."
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "SQL Scripts",
+                "subsection_title": "Flow Control",
+                "sub_title": "WHILE"
+              }
+            ],
+            "CASE": [
+              {
+                "question": "In SQL, the `CASE` statement is most similar in function to which programming construct?",
+                "options": [
+                  "A) A for loop",
+                  "B) An if-else if-else statement",
+                  "C) A while loop",
+                  "D) A do-while loop"
+                ],
+                "answer": "B",
+                "difficulty": "intermediate",
+                "section_title": "SQL Scripts",
+                "subsection_title": "Flow Control",
+                "sub_title": "CASE"
+              }
+            ],
+            "CURSOR": [
+              {
+                "question": "In SQL, a cursor is primarily used for what purpose?",
+                "options": [
+                  "A) Defining the structure of a table.",
+                  "B) Processing data from a result set one row at a time.",
+                  "C) Creating a view based on a complex query.",
+                  "D) Optimizing query performance by indexing tables."
+                ],
+                "answer": "B",
+                "difficulty": "intermediate",
+                "section_title": "SQL Scripts",
+                "subsection_title": "Flow Control",
+                "sub_title": "CURSOR"
+              }
+            ]
+          }
+        }
+      ],
+      "quizzes": [
+        {
+          "question": "Which SQL construct is most suitable for executing a block of code repeatedly based on a condition?",
+          "options": [
+            "A) IF-ELSE",
+            "B) WHILE",
+            "C) CASE",
+            "D) @@IDENTITY"
+          ],
+          "answer": "B",
+          "difficulty": "intermediate",
+          "section_title": "SQL Scripts",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S9",
+      "title": "Views",
+      "brief": "Explains database views, which are virtual tables based on the result-set of an SQL statement. Covers creating and using views, and demonstrates the graphical designer for creating views.",
+      "subsections": [
+        {
+          "subsection_id": "S9.1",
+          "title": "Using the Graphical Designer",
+          "sub_titles": [],
+          "brief": "Demonstrates how to create views using the graphical designer in SQL Server Management Studio.",
+          "quizzes": [
+            {
+              "question": "A graphical designer, in the context of database management, primarily facilitates what action?",
+              "options": [
+                "A) Writing complex SQL queries directly",
+                "B) Creating and modifying database objects visually",
+                "C) Executing stored procedures with specific parameters",
+                "D) Managing user access and permissions"
+              ],
+              "answer": "B",
+              "difficulty": "easy",
+              "section_title": "Views",
+              "subsection_title": "Using the Graphical Designer",
+              "sub_title": ""
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "question": "A view in SQL can be best described as:",
+          "options": [
+            "A) A virtual table based on the result-set of an SQL statement.",
+            "B) A physical table storing a subset of data from other tables.",
+            "C) A stored procedure used to retrieve specific data.",
+            "D) A trigger that automatically executes when data is modified."
+          ],
+          "answer": "A",
+          "difficulty": "easy",
+          "section_title": "Views",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S10",
+      "title": "Stored Procedures",
+      "brief": "Explains stored procedures, which are precompiled collections of SQL statements. Covers creating and using stored procedures with and without parameters, handling existing stored procedures, and using NOCOUNT ON/OFF for performance.",
+      "subsections": [
+        {
+          "subsection_id": "S10.1",
+          "title": "NOCOUNT ON/NOCOUNT OFF",
+          "sub_titles": [],
+          "brief": "Explains the use of SET NOCOUNT ON and SET NOCOUNT OFF for improving the performance of stored procedures.",
+          "quizzes": [
+            {
+              "question": "What is the primary effect of using `SET NOCOUNT ON` within a stored procedure?",
+              "options": [
+                "A) It prevents the stored procedure from executing.",
+                "B) It suppresses the message indicating the number of rows affected by data modification statements.",
+                "C) It disables error messages within the stored procedure.",
+                "D) It increases the execution speed of the stored procedure by disabling logging."
+              ],
+              "answer": "B",
+              "difficulty": "intermediate",
+              "section_title": "Stored Procedures",
+              "subsection_title": "NOCOUNT ON/NOCOUNT OFF",
+              "sub_title": ""
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "question": "What is the primary purpose of using stored procedures in a database?",
+          "options": [
+            "A) To store large amounts of data in a structured format.",
+            "B) To encapsulate a set of SQL statements for reuse and modularity.",
+            "C) To define the structure and relationships within a database.",
+            "D) To create interactive user interfaces for data manipulation."
+          ],
+          "answer": "B",
+          "difficulty": "easy",
+          "section_title": "Stored Procedures",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S11",
+      "title": "Functions",
+      "brief": "Explains SQL functions, both built-in and user-defined. Covers aggregate and scalar functions, string functions, date and time functions, mathematics and statistics functions, and creating user-defined functions.",
+      "subsections": [
+        {
+          "subsection_id": "S11.1",
+          "title": "Built-in Functions",
+          "sub_titles": [
+            "String Functions",
+            "Date and Time Functions",
+            "Mathematics and Statistics Functions",
+            "AVG()",
+            "COUNT()",
+            "The GROUP BY Statement",
+            "The HAVING Clause"
+          ],
+          "brief": "Explains built-in SQL functions, including aggregate and scalar functions, and provides examples of common functions.",
+          "quizzes": [
+            {
+              "question": "Which of the following best describes the purpose of built-in functions in SQL?",
+              "options": [
+                "A) To allow users to create custom functionalities not available in standard SQL.",
+                "B) To provide pre-defined operations for common tasks like string manipulation, date/time calculations, and aggregate computations.",
+                "C) To define the structure and behavior of database objects such as tables and views.",
+                "D) To manage communication between the SQL database and external applications."
+              ],
+              "answer": "B",
+              "difficulty": "easy",
+              "section_title": "Functions",
+              "subsection_title": "Built-in Functions",
+              "sub_title": ""
+            }
+          ],
+          "sub_title_quizzes": {
+            "String Functions": [
+              {
+                "question": "Which type of built-in function would you use to manipulate text data, such as extracting substrings, concatenating strings, or changing the case of text?",
+                "options": [
+                  "A) Date and Time Functions",
+                  "B) String Functions",
+                  "C) Mathematics and Statistics Functions",
+                  "D) Aggregate Functions"
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "Functions",
+                "subsection_title": "Built-in Functions",
+                "sub_title": "String Functions"
+              }
+            ],
+            "Date and Time Functions": [
+              {
+                "question": "You need to extract the day of the week (e.g., Sunday, Monday) from a date value stored in a database. Which type of function would you typically use to accomplish this?",
+                "options": [
+                  "A) String function",
+                  "B) Date and time function",
+                  "C) Mathematical function",
+                  "D) Aggregate function"
+                ],
+                "answer": "B",
+                "difficulty": "easy",
+                "section_title": "Functions",
+                "subsection_title": "Built-in Functions",
+                "sub_title": "Date and Time Functions"
+              }
+            ],
+            "Mathematics and Statistics Functions": [
+              {
+                "question": "Which type of built-in function in SQL would you use to perform operations like calculating the average of a set of values or finding the square root of a number?",
+                "options": [
+                  "A) String Functions",
+                  "B) Date and Time Functions",
+                  "C) Mathematics and Statistics Functions",
+                  "D) User-defined Functions"
+                ],
+                "answer": "C",
+                "difficulty": "easy",
+                "section_title": "Functions",
+                "subsection_title": "Built-in Functions",
+                "sub_title": "Mathematics and Statistics Functions"
+              }
+            ],
+            "AVG()": [
+              {
+                "question": "The AVG() function is used to calculate the average value of a specific column.  Which data types are generally suitable for use with AVG()?",
+                "options": [
+                  "A) String and Date/Time",
+                  "B) Numeric and Boolean",
+                  "C) Numeric and Date/Time",
+                  "D) Numeric"
+                ],
+                "answer": "D",
+                "difficulty": "easy",
+                "section_title": "Functions",
+                "subsection_title": "Built-in Functions",
+                "sub_title": "AVG()"
+              }
+            ],
+            "COUNT()": [
+              {
+                "question": "The `COUNT()` function is used to determine the number of rows that match a specified criteria. Which of the following best describes how `COUNT(*)` differs from `COUNT(column_name)`?",
+                "options": [
+                  "A) `COUNT(*)` counts all rows in the table, including those with NULL values in the specified column, while `COUNT(column_name)` only counts rows where the specified column is not NULL.",
+                  "B) `COUNT(*)` counts all rows in the table, excluding those with NULL values in any column, while `COUNT(column_name)` only counts rows where the specified column is not NULL.",
+                  "C) `COUNT(*)` counts only rows where all columns have non-NULL values, while `COUNT(column_name)` counts all rows regardless of NULL values in other columns.",
+                  "D) `COUNT(*)` and `COUNT(column_name)` are functionally equivalent and will always return the same result."
+                ],
+                "answer": "A",
+                "difficulty": "intermediate",
+                "section_title": "Functions",
+                "subsection_title": "Built-in Functions",
+                "sub_title": "COUNT()"
+              }
+            ],
+            "The GROUP BY Statement": [
+              {
+                "question": "In SQL, the `GROUP BY` clause is used in conjunction with aggregate functions. What is its primary purpose?",
+                "options": [
+                  "A) To filter the results of a query based on aggregated values.",
+                  "B) To group rows that have the same values in specified columns, allowing aggregate functions to be applied to each group.",
+                  "C) To sort the results of a query based on the values in one or more columns.",
+                  "D) To limit the number of rows returned by a query."
+                ],
+                "answer": "B",
+                "difficulty": "intermediate",
+                "section_title": "Functions",
+                "subsection_title": "Built-in Functions",
+                "sub_title": "The GROUP BY Statement"
+              }
+            ],
+            "The HAVING Clause": [
+              {
+                "question": "The HAVING clause is used in conjunction with which SQL statement to filter aggregated data?",
+                "options": [
+                  "A) ORDER BY",
+                  "B) WHERE",
+                  "C) SELECT",
+                  "D) GROUP BY"
+                ],
+                "answer": "D",
+                "difficulty": "intermediate",
+                "section_title": "Functions",
+                "subsection_title": "Built-in Functions",
+                "sub_title": "The HAVING Clause"
+              }
+            ]
+          }
+        },
+        {
+          "subsection_id": "S11.2",
+          "title": "User-defined Functions",
+          "sub_titles": [],
+          "brief": "Explains user-defined functions and how to create and use them. Compares stored procedures and functions.",
+          "quizzes": [
+            {
+              "question": "Which of the following best describes the primary purpose of a user-defined function in SQL?",
+              "options": [
+                "A) To encapsulate a set of SQL statements that can be reused, accepting input parameters and returning a single value.",
+                "B) To automatically execute a block of code when data is modified in a table.",
+                "C) To create a virtual table based on the result set of an SQL query.",
+                "D) To control the flow of execution in a stored procedure using conditional logic."
+              ],
+              "answer": "A",
+              "difficulty": "intermediate",
+              "section_title": "Functions",
+              "subsection_title": "User-defined Functions",
+              "sub_title": ""
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "question": "What distinguishes a user-defined function from a built-in function in SQL?",
+          "options": [
+            "A) User-defined functions can only operate on strings, while built-in functions can operate on any data type.",
+            "B) User-defined functions are created by users to perform specific tasks, whereas built-in functions are pre-defined parts of the SQL language.",
+            "C) User-defined functions always return a single value, whereas built-in functions can return multiple values or tables.",
+            "D) User-defined functions are less efficient than built-in functions and should be avoided whenever possible."
+          ],
+          "answer": "B",
+          "difficulty": "intermediate",
+          "section_title": "Functions",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S12",
+      "title": "Triggers",
+      "brief": "Explains database triggers, which are code automatically executed in response to certain events on a table. Covers creating triggers, using the INSERTED and DELETED tables, and provides an example of a trigger for validating phone numbers.",
+      "subsections": [],
+      "quizzes": [
+        {
+          "question": "A database trigger is most accurately described as:",
+          "options": [
+            "A) A stored procedure that executes automatically in response to a specific event on a particular table or view.",
+            "B) A function that is called explicitly by the user to perform a specific action on a table.",
+            "C) A type of constraint that enforces data integrity rules on a table.",
+            "D) A special type of view that automatically updates itself when the underlying data changes."
+          ],
+          "answer": "A",
+          "difficulty": "intermediate",
+          "section_title": "Triggers",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S13",
+      "title": "Communication from other Applications",
+      "brief": "Discusses the importance of database communication from other applications and programming languages. Covers ODBC and connecting to SQL Server from Microsoft Excel.",
+      "subsections": [
+        {
+          "subsection_id": "S13.1",
+          "title": "ODBC",
+          "sub_titles": [],
+          "brief": "Explains ODBC (Open Database Connectivity), a standardized interface for accessing databases from different vendors.",
+          "quizzes": [
+            {
+              "question": "What technology allows external applications to communicate with and access data stored within a database management system (DBMS) using SQL?",
+              "options": [
+                "A) Stored Procedures",
+                "B) ODBC",
+                "C) Triggers",
+                "D) User-defined Functions"
+              ],
+              "answer": "B",
+              "difficulty": "easy",
+              "section_title": "Communication from other Applications",
+              "subsection_title": "ODBC",
+              "sub_title": ""
+            }
+          ]
+        },
+        {
+          "subsection_id": "S13.2",
+          "title": "Microsoft Excel",
+          "sub_titles": [],
+          "brief": "Describes how to retrieve data from SQL Server into Microsoft Excel.",
+          "quizzes": [
+            {
+              "question": "Which of the following is NOT a typical way to interact with a SQL database from Microsoft Excel?",
+              "options": [
+                "A) Using a data connection to query and retrieve data.",
+                "B) Directly embedding SQL queries within cell formulas.",
+                "C) Utilizing Power Query to import and transform data.",
+                "D) Writing VBA code to execute SQL statements."
+              ],
+              "answer": "B",
+              "difficulty": "intermediate",
+              "section_title": "Communication from other Applications",
+              "subsection_title": "Microsoft Excel",
+              "sub_title": ""
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "question": "Which of the following technologies facilitates communication between applications and a database system?",
+          "options": [
+            "A) Stored Procedures",
+            "B) User-defined Functions",
+            "C) ODBC",
+            "D) Cursors"
+          ],
+          "answer": "C",
+          "difficulty": "easy",
+          "section_title": "Communication from other Applications",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    },
+    {
+      "section_id": "S14",
+      "title": "References",
+      "brief": "Provides a list of references, including websites and books, for further learning about SQL Server and related topics.",
+      "subsections": [],
+      "quizzes": [
+        {
+          "question": "In SQL, what mechanism is typically used to acknowledge the sources of information or code that were consulted or incorporated into a project?",
+          "options": [
+            "A) Stored Procedures",
+            "B) Cursors",
+            "C) References",
+            "D) Triggers"
+          ],
+          "answer": "C",
+          "difficulty": "easy",
+          "section_title": "References",
+          "subsection_title": "",
+          "sub_title": ""
+        }
+      ]
+    }
+  ]
+}

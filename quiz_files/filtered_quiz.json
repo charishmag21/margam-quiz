@@ -1,0 +1,118 @@
+{
+  "quiz": [
+    {
+      "question": "In delayed-reinforcement learning, what does 'The General Problem' refer to?",
+      "options": [
+        "A) The difficulty of implementing Q-learning in real-world scenarios.",
+        "B) The challenge of learning optimal actions when rewards are delayed and the connection between actions and outcomes is unclear.",
+        "C) The computational complexity of temporal difference learning algorithms.",
+        "D) The problem of scaling reinforcement learning algorithms to large state spaces."
+      ],
+      "answer": "B",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In the context of Computational Learning Theory, what concept is discussed in section 8.3.2?",
+      "options": [
+        "A) PAC Learning",
+        "B) Linear Dichotomies",
+        "C) Capacity",
+        "D) VC Dimension and PAC Learning"
+      ],
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "question": "When training a Threshold Logic Unit (TLU) on a non-linearly separable dataset, which of the following strategies can help mitigate the inability of a single TLU to perfectly classify the data?",
+      "options": [
+        "A) Increase the learning rate to force the weights to converge faster.",
+        "B) Employ the pocket algorithm to store the best performing weight vector encountered during training.",
+        "C) Reduce the number of training epochs to prevent overfitting.",
+        "D) Initialize the weights to large random values to escape local minima."
+      ],
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "question": "In machine learning, what is the typical representation of an input to a learning algorithm?",
+      "options": [
+        "A) A single numerical value",
+        "B) A string of characters",
+        "C) A vector of values",
+        "D) A matrix of values"
+      ],
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In the context of the provided content outline, under which main chapter heading would you find An Example discussed?",
+      "options": [
+        "A) Decision Trees",
+        "B) Inductive Logic Programming",
+        "C) Computational Learning Theory",
+        "D) Overfitting and Evaluation"
+      ],
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In the context of the Vapnik-Chervonenkis (VC) dimension, what does a more general capacity result typically refer to?",
+      "options": [
+        "A) A specific calculation of the VC dimension for a simple class of learners, like linear classifiers.",
+        "B) An upper bound on the number of training examples needed to achieve a certain generalization error, expressed in terms of the VC dimension.",
+        "C) A proof that the VC dimension is always finite for any learning algorithm.",
+        "D) A method for estimating the VC dimension empirically from a given dataset."
+      ],
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "question": "In unsupervised learning, the primary goal is to:",
+      "options": [
+        "A) Predict a target variable based on labeled data.",
+        "B) Discover underlying patterns and structures in unlabeled data.",
+        "C) Train a model to classify data into predefined categories.",
+        "D) Optimize a model's parameters using a known error function."
+      ],
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "question": "In the context of Temporal-Difference (TD) learning, what do the theoretical results primarily address?",
+      "options": [
+        "A) The optimal learning rate for TD algorithms.",
+        "B) The convergence properties of TD algorithms under certain conditions.",
+        "C) The computational complexity of TD algorithms.",
+        "D) The relationship between TD learning and dynamic programming."
+      ],
+      "answer": "B",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In the context of unsupervised learning clustering methods, which of the following distance measures is fundamental to the method described in section 9.2.1 and 9.3.1?",
+      "options": [
+        "A) Manhattan Distance",
+        "B) Chebyshev Distance",
+        "C) Euclidean Distance",
+        "D) Minkowski Distance"
+      ],
+      "answer": "C",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is NOT generally considered a 'properly' PAC-learnable class (meaning learnable with a hypothesis from the same class as the target concept)?",
+      "options": [
+        "A) Conjunctions of Boolean literals",
+        "B) k-DNF (Disjunctive Normal Form with at most k literals per clause)",
+        "C) 3-CNF (Conjunctive Normal Form with at most 3 literals per clause)",
+        "D) Axis-aligned rectangles in the plane"
+      ],
+      "answer": "C",
+      "difficulty": "hard"
+    }
+  ],
+  "total_questions": 10,
+  "source_pdf": "mi-intro.pdf",
+  "curriculum_file": "learning_path_skeleton_ml.json",
+  "output_file": "quiz_output_1.json"
+}

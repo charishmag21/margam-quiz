@@ -1,0 +1,255 @@
+{
+  "user_zone": "foundational",
+  "learning_path": [
+    {
+      "topic": "ALTER TABLE",
+      "pace": "10 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 507,
+      "code_lines": 0,
+      "math_lines": 5,
+      "table_lines": 0
+    },
+    {
+      "topic": "AND & OR Operators",
+      "pace": "7 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 158,
+      "code_lines": 4,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "Alias",
+      "pace": "5 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 146,
+      "code_lines": 4,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Built-in Functions",
+      "pace": "6 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 454,
+      "code_lines": 0,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "Built-in Global Variables",
+      "pace": "3 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 196,
+      "code_lines": 0,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "Create Tables using the Designer Tools",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 168,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Data Definition Language (DDL)",
+      "pace": "4 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 240,
+      "code_lines": 1,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "Data Manipulation Language (DML)",
+      "pace": "9 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 240,
+      "code_lines": 1,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "Database Modelling",
+      "pace": "3 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 267,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 1
+    },
+    {
+      "topic": "Flow Control",
+      "pace": "11 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 191,
+      "code_lines": 2,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "Joins",
+      "pace": "6 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 253,
+      "code_lines": 5,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Microsoft Excel",
+      "pace": "5 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 70,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "NOCOUNT ON/NOCOUNT OFF",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 198,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "ODBC",
+      "pace": "8 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 317,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 1
+    },
+    {
+      "topic": "SELECT DISTINCT",
+      "pace": "10 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 164,
+      "code_lines": 3,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "SELECT TOP Clause",
+      "pace": "5 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 160,
+      "code_lines": 3,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "SQL Constraints",
+      "pace": "11 min",
+      "review_needed": true,
+      "missed_mcqs": 2,
+      "word_count": 168,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "SQL Server Management Studio",
+      "pace": "3 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 348,
+      "code_lines": 1,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The ORDER BY Keyword",
+      "pace": "4 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 152,
+      "code_lines": 3,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The WHERE Clause",
+      "pace": "14 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 685,
+      "code_lines": 5,
+      "math_lines": 4,
+      "table_lines": 0
+    },
+    {
+      "topic": "User-defined Functions",
+      "pace": "4 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 382,
+      "code_lines": 0,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "Using Comments",
+      "pace": "10 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 202,
+      "code_lines": 1,
+      "math_lines": 5,
+      "table_lines": 1
+    },
+    {
+      "topic": "Using the Graphical Designer",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 156,
+      "code_lines": 1,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Variables",
+      "pace": "19 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 909,
+      "code_lines": 1,
+      "math_lines": 8,
+      "table_lines": 1
+    },
+    {
+      "topic": "Wildcards",
+      "pace": "13 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 320,
+      "code_lines": 6,
+      "math_lines": 0,
+      "table_lines": 0
+    }
+  ]
+}

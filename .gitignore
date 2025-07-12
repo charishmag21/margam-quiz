@@ -1,0 +1,20 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter checkpoints
+*.ipynb_checkpoints/
+
+# Ignore images (optional, add more extensions if needed)
+*.jpg
+*.jpeg
+*.png
+
+# Ignore API keys and sensitive files
+api_key_paid.txt
+
+# Optionally ignore other secrets or system files
+.DS_Store
+Thumbs.db
+
+

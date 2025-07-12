@@ -1,0 +1,675 @@
+{
+  "user_zone": "slow-learner and advanced",
+  "learning_path": [
+    {
+      "topic": "Introduction to SQL",
+      "pace": "20 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 1017,
+      "code_lines": 10,
+      "math_lines": 5,
+      "table_lines": 0
+    },
+    {
+      "topic": "Data Definition Language (DDL)",
+      "pace": "9 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 240,
+      "code_lines": 8,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "Data Manipulation Language (DML)",
+      "pace": "14 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 240,
+      "code_lines": 8,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "Introduction to SQL Server",
+      "pace": "7 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 536,
+      "code_lines": 3,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "SQL Server Management Studio",
+      "pace": "5 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 348,
+      "code_lines": 4,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Create a new Database",
+      "pace": "5 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 378,
+      "code_lines": 3,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Queries",
+      "pace": "12 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 833,
+      "code_lines": 5,
+      "math_lines": 3,
+      "table_lines": 0
+    },
+    {
+      "topic": "CREATE TABLE",
+      "pace": "47 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 2094,
+      "code_lines": 39,
+      "math_lines": 1,
+      "table_lines": 2
+    },
+    {
+      "topic": "Database Modelling",
+      "pace": "6 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 267,
+      "code_lines": 4,
+      "math_lines": 0,
+      "table_lines": 1
+    },
+    {
+      "topic": "Create Tables using the Designer Tools",
+      "pace": "3 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 168,
+      "code_lines": 2,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "SQL Constraints",
+      "pace": "8 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 168,
+      "code_lines": 2,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "PRIMARY KEY",
+      "pace": "37 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 1783,
+      "code_lines": 30,
+      "math_lines": 1,
+      "table_lines": 1
+    },
+    {
+      "topic": "FOREIGN KEY",
+      "pace": "14 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 721,
+      "code_lines": 12,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "NOT NULL / Required Columns",
+      "pace": "3 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 174,
+      "code_lines": 3,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "UNIQUE",
+      "pace": "43 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 1770,
+      "code_lines": 32,
+      "math_lines": 5,
+      "table_lines": 1
+    },
+    {
+      "topic": "CHECK",
+      "pace": "26 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 939,
+      "code_lines": 15,
+      "math_lines": 5,
+      "table_lines": 2
+    },
+    {
+      "topic": "DEFAULT",
+      "pace": "12 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 471,
+      "code_lines": 12,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "AUTO INCREMENT or IDENTITY",
+      "pace": "5 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 170,
+      "code_lines": 5,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "ALTER TABLE",
+      "pace": "22 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 507,
+      "code_lines": 17,
+      "math_lines": 5,
+      "table_lines": 0
+    },
+    {
+      "topic": "INSERT INTO",
+      "pace": "51 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 879,
+      "code_lines": 40,
+      "math_lines": 7,
+      "table_lines": 5
+    },
+    {
+      "topic": "UPDATE",
+      "pace": "1.2 hours",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 1915,
+      "code_lines": 49,
+      "math_lines": 16,
+      "table_lines": 3
+    },
+    {
+      "topic": "DELETE",
+      "pace": "54 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 1418,
+      "code_lines": 44,
+      "math_lines": 8,
+      "table_lines": 1
+    },
+    {
+      "topic": "SELECT",
+      "pace": "3.0 hours",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 5858,
+      "code_lines": 145,
+      "math_lines": 24,
+      "table_lines": 2
+    },
+    {
+      "topic": "The ORDER BY Keyword",
+      "pace": "6 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 152,
+      "code_lines": 6,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "SELECT DISTINCT",
+      "pace": "9 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 164,
+      "code_lines": 9,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "The WHERE Clause",
+      "pace": "28 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 685,
+      "code_lines": 24,
+      "math_lines": 4,
+      "table_lines": 0
+    },
+    {
+      "topic": "Operators",
+      "pace": "15 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 353,
+      "code_lines": 13,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "LIKE Operator",
+      "pace": "12 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 322,
+      "code_lines": 12,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "IN Operator",
+      "pace": "9 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 223,
+      "code_lines": 9,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "BETWEEN Operator",
+      "pace": "6 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 174,
+      "code_lines": 6,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Wildcards",
+      "pace": "10 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 320,
+      "code_lines": 10,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "AND & OR Operators",
+      "pace": "8 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 158,
+      "code_lines": 6,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "SELECT TOP Clause",
+      "pace": "7 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 160,
+      "code_lines": 6,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "Alias",
+      "pace": "4 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 146,
+      "code_lines": 4,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Joins",
+      "pace": "10 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 253,
+      "code_lines": 5,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Different SQL JOINs",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 154,
+      "code_lines": 2,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "SQL Scripts",
+      "pace": "40 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 1323,
+      "code_lines": 19,
+      "math_lines": 13,
+      "table_lines": 2
+    },
+    {
+      "topic": "Using Comments",
+      "pace": "9 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 202,
+      "code_lines": 1,
+      "math_lines": 5,
+      "table_lines": 1
+    },
+    {
+      "topic": "Single-line comment",
+      "pace": "9 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 202,
+      "code_lines": 1,
+      "math_lines": 5,
+      "table_lines": 1
+    },
+    {
+      "topic": "Multiple-line comment",
+      "pace": "9 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 202,
+      "code_lines": 1,
+      "math_lines": 5,
+      "table_lines": 1
+    },
+    {
+      "topic": "Variables",
+      "pace": "20 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 909,
+      "code_lines": 5,
+      "math_lines": 8,
+      "table_lines": 1
+    },
+    {
+      "topic": "Built-in Global Variables",
+      "pace": "4 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 196,
+      "code_lines": 2,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "@@IDENTITY",
+      "pace": "12 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 341,
+      "code_lines": 8,
+      "math_lines": 3,
+      "table_lines": 0
+    },
+    {
+      "topic": "Flow Control",
+      "pace": "13 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 191,
+      "code_lines": 6,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "IF – ELSE",
+      "pace": "8 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 205,
+      "code_lines": 6,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "WHILE",
+      "pace": "31 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 1215,
+      "code_lines": 20,
+      "math_lines": 6,
+      "table_lines": 1
+    },
+    {
+      "topic": "CASE",
+      "pace": "19 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 920,
+      "code_lines": 14,
+      "math_lines": 1,
+      "table_lines": 1
+    },
+    {
+      "topic": "CURSOR",
+      "pace": "6 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 426,
+      "code_lines": 2,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "Views",
+      "pace": "9 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 481,
+      "code_lines": 5,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "Using the Graphical Designer",
+      "pace": "3 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 156,
+      "code_lines": 2,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Stored Procedures",
+      "pace": "23 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 1303,
+      "code_lines": 14,
+      "math_lines": 4,
+      "table_lines": 0
+    },
+    {
+      "topic": "NOCOUNT ON/NOCOUNT OFF",
+      "pace": "4 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 198,
+      "code_lines": 3,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Functions",
+      "pace": "30 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 1659,
+      "code_lines": 18,
+      "math_lines": 5,
+      "table_lines": 0
+    },
+    {
+      "topic": "Built-in Functions",
+      "pace": "5 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 454,
+      "code_lines": 0,
+      "math_lines": 2,
+      "table_lines": 0
+    },
+    {
+      "topic": "String Functions",
+      "pace": "2 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 298,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Date and Time Functions",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 223,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "Mathematics and Statistics Functions",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 168,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "AVG()",
+      "pace": "5 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 364,
+      "code_lines": 4,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "COUNT()",
+      "pace": "5 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 364,
+      "code_lines": 4,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The GROUP BY Statement",
+      "pace": "8 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 270,
+      "code_lines": 8,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "The HAVING Clause",
+      "pace": "4 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 138,
+      "code_lines": 4,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "User-defined Functions",
+      "pace": "8 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 382,
+      "code_lines": 0,
+      "math_lines": 1,
+      "table_lines": 0
+    },
+    {
+      "topic": "Triggers",
+      "pace": "18 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 602,
+      "code_lines": 8,
+      "math_lines": 5,
+      "table_lines": 2
+    },
+    {
+      "topic": "Communication from other Applications",
+      "pace": "1 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 131,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "ODBC",
+      "pace": "9 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 317,
+      "code_lines": 1,
+      "math_lines": 0,
+      "table_lines": 1
+    },
+    {
+      "topic": "Microsoft Excel",
+      "pace": "5 min",
+      "review_needed": true,
+      "missed_mcqs": 1,
+      "word_count": 70,
+      "code_lines": 0,
+      "math_lines": 0,
+      "table_lines": 0
+    },
+    {
+      "topic": "References",
+      "pace": "12 min",
+      "review_needed": false,
+      "missed_mcqs": 0,
+      "word_count": 209,
+      "code_lines": 3,
+      "math_lines": 7,
+      "table_lines": 0
+    }
+  ]
+}

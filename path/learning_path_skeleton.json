@@ -1,0 +1,281 @@
+{
+  "sections": [
+    {
+      "section_id": "S1",
+      "title": "Introduction to SQL",
+      "brief": "An introduction to SQL (Structured Query Language), a standardized language for managing data in relational database management systems (RDBMS). It covers the basics of SQL and its capabilities, including querying, retrieving, inserting, updating, and deleting data.",
+      "subsections": [
+        {
+          "subsection_id": "S1.1",
+          "title": "Data Definition Language (DDL)",
+          "sub_titles": [],
+          "brief": "Covers Data Definition Language (DDL) which manages table and index structure. Explains CREATE, ALTER, RENAME, and DROP statements for creating, modifying, and deleting database objects."
+        },
+        {
+          "subsection_id": "S1.2",
+          "title": "Data Manipulation Language (DML)",
+          "sub_titles": [],
+          "brief": "Covers Data Manipulation Language (DML) used for adding, updating, and deleting data. Explains the CRUD operations (Create, Read, Update, Delete) and their corresponding SQL statements (INSERT INTO, SELECT, UPDATE, DELETE)."
+        }
+      ]
+    },
+    {
+      "section_id": "S2",
+      "title": "Introduction to SQL Server",
+      "brief": "An introduction to Microsoft SQL Server and its components, including the Database Engine and Management Studio. Explains the different editions of SQL Server and the use of T-SQL (Transact-SQL).",
+      "subsections": [
+        {
+          "subsection_id": "S2.1",
+          "title": "SQL Server Management Studio",
+          "sub_titles": ["Create a new Database",
+                          "Queries"],
+          "brief": "Introduces SQL Server Management Studio (SSMS), a GUI tool for managing SQL Server. Describes the Object Explorer and query windows, and how to use them for database administration and querying."
+        }
+      ]
+    },
+    {
+      "section_id": "S3",
+      "title": "CREATE TABLE",
+      "brief": "Explains the CREATE TABLE statement for creating tables in a database. Covers data types, constraints, and best practices for table design.",
+      "subsections": [
+        {
+          "subsection_id": "S3.1",
+          "title": "Database Modelling",
+          "sub_titles": [],
+          "brief": "Emphasizes the importance of database modeling before table implementation. Introduces database modeling tools like ERwin and demonstrates how to transfer models to SQL Server."
+        },
+        {
+          "subsection_id": "S3.2",
+          "title": "Create Tables using the Designer Tools",
+          "sub_titles": [],
+          "brief": "Demonstrates how to create tables using the designer tools in SQL Server Management Studio, providing a visual alternative to writing SQL scripts."
+        },
+        {
+          "subsection_id": "S3.3",
+          "title": "SQL Constraints",
+          "sub_titles": [
+            "PRIMARY KEY",
+            "FOREIGN KEY",
+            "NOT NULL / Required Columns",
+            "UNIQUE",
+            "CHECK",
+            "DEFAULT",
+            "AUTO INCREMENT or IDENTITY"
+          ],
+          "brief": "Explains SQL constraints used to limit the type of data in a table. Covers PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, CHECK, DEFAULT, and IDENTITY constraints, including how to implement them using SQL and designer tools."
+        },
+        {
+          "subsection_id": "S3.4",
+          "title": "ALTER TABLE",
+          "sub_titles": [],
+          "brief": "Explains the ALTER TABLE statement for modifying existing tables, including adding, deleting, or modifying columns. Provides examples of how to use ALTER TABLE in conjunction with CREATE TABLE for robust database scripts."
+        }
+      ]
+    },
+    {
+      "section_id": "S4",
+      "title": "INSERT INTO",
+      "brief": "Explains the INSERT INTO statement for inserting new rows into a table. Covers two forms of the statement, inserting data into specific columns, and using designer tools for data insertion.",
+      "subsections": []
+    },
+    {
+      "section_id": "S5",
+      "title": "UPDATE",
+      "brief": "Explains the UPDATE statement for updating existing records in a table. Emphasizes the importance of the WHERE clause to avoid unintended updates and demonstrates updating data using designer tools.",
+      "subsections": []
+    },
+    {
+      "section_id": "S6",
+      "title": "DELETE",
+      "brief": "Explains the DELETE statement for deleting rows from a table. Highlights the importance of the WHERE clause and demonstrates deleting data using designer tools.",
+      "subsections": []
+    },
+    {
+      "section_id": "S7",
+      "title": "SELECT",
+      "brief": "Explains the SELECT statement for retrieving data from a database. Covers selecting specific columns, the WHERE clause, operators, wildcards, the ORDER BY keyword, SELECT DISTINCT, and using designer tools.",
+      "subsections": [
+        {
+          "subsection_id": "S7.1",
+          "title": "The ORDER BY Keyword",
+          "sub_titles": [],
+          "brief": "Explains the ORDER BY keyword for sorting query results in ascending or descending order based on one or more columns."
+        },
+        {
+          "subsection_id": "S7.2",
+          "title": "SELECT DISTINCT",
+          "sub_titles": [],
+          "brief": "Explains the DISTINCT keyword for retrieving only unique values from a column."
+        },
+        {
+          "subsection_id": "S7.3",
+          "title": "The WHERE Clause",
+          "sub_titles": [
+            "Operators",
+            "LIKE Operator",
+            "IN Operator",
+            "BETWEEN Operator"
+          ],
+          "brief": "Explains the WHERE clause for filtering query results based on specified criteria. Covers various operators, including =, <>, >, <, >=, <=, BETWEEN, LIKE, and IN."
+        },
+        {
+          "subsection_id": "S7.4",
+          "title": "Wildcards",
+          "sub_titles": [],
+          "brief": "Explains the use of wildcards (%, _, [], [^]) with the LIKE operator for pattern matching in queries."
+        },
+        {
+          "subsection_id": "S7.5",
+          "title": "AND & OR Operators",
+          "sub_titles": [],
+          "brief": "Explains the use of AND and OR operators for combining multiple conditions in the WHERE clause."
+        },
+        {
+          "subsection_id": "S7.6",
+          "title": "SELECT TOP Clause",
+          "sub_titles": [],
+          "brief": "Explains the TOP clause for limiting the number of rows returned by a query, either by number or percentage."
+        },
+        {
+          "subsection_id": "S7.7",
+          "title": "Alias",
+          "sub_titles": [],
+          "brief": "Explains the use of aliases to give tables or columns temporary names in queries."
+        },
+        {
+          "subsection_id": "S7.8",
+          "title": "Joins",
+          "sub_titles": [
+            "Different SQL JOINs"
+          ],
+          "brief": "Explains the concept of SQL joins for querying data from multiple tables based on relationships between columns. Covers INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN."
+        }
+      ]
+    },
+    {
+      "section_id": "S8",
+      "title": "SQL Scripts",
+      "brief": "Explains SQL scripts, which are collections of SQL statements. Covers using comments, variables, built-in global variables, and flow control.",
+      "subsections": [
+        {
+          "subsection_id": "S8.1",
+          "title": "Using Comments",
+          "sub_titles": [
+            "Single-line comment",
+            "Multiple-line comment"
+          ],
+          "brief": "Explains how to use single-line (--) and multi-line (/* */) comments in SQL scripts."
+        },
+        {
+          "subsection_id": "S8.2",
+          "title": "Variables",
+          "sub_titles": [],
+          "brief": "Explains how to declare and use local variables in SQL scripts using DECLARE, SET, and SELECT statements."
+        },
+        {
+          "subsection_id": "S8.3",
+          "title": "Built-in Global Variables",
+          "sub_titles": [
+            "@@IDENTITY"
+          ],
+          "brief": "Explains built-in global variables, focusing on @@IDENTITY for retrieving the last generated identity value."
+        },
+        {
+          "subsection_id": "S8.4",
+          "title": "Flow Control",
+          "sub_titles": [
+            "IF – ELSE",
+            "WHILE",
+            "CASE",
+            "CURSOR"
+          ],
+          "brief": "Explains flow control statements in SQL scripts, including IF-ELSE, WHILE, CASE, and CURSOR for conditional logic and looping."
+        }
+      ]
+    },
+    {
+      "section_id": "S9",
+      "title": "Views",
+      "brief": "Explains database views, which are virtual tables based on the result-set of an SQL statement. Covers creating and using views, both with SQL commands and the graphical designer.",
+      "subsections": [
+        {
+          "subsection_id": "S9.1",
+          "title": "Using the Graphical Designer",
+          "sub_titles": [],
+          "brief": "Demonstrates how to create and use views using the graphical designer in SQL Server Management Studio."
+        }
+      ]
+    },
+    {
+      "section_id": "S10",
+      "title": "Stored Procedures",
+      "brief": "Explains stored procedures, which are precompiled collections of SQL statements. Covers creating and using stored procedures with and without parameters, handling existing procedures, and using NOCOUNT for performance.",
+      "subsections": [
+        {
+          "subsection_id": "S10.1",
+          "title": "NOCOUNT ON/NOCOUNT OFF",
+          "sub_titles": [],
+          "brief": "Explains the use of SET NOCOUNT ON and OFF for improving the performance of stored procedures by reducing network traffic."
+        }
+      ]
+    },
+    {
+      "section_id": "S11",
+      "title": "Functions",
+      "brief": "Explains SQL functions, both built-in and user-defined. Covers aggregate and scalar functions, string functions, date and time functions, mathematics and statistics functions, and creating user-defined functions.",
+      "subsections": [
+        {
+          "subsection_id": "S11.1",
+          "title": "Built-in Functions",
+          "sub_titles": [
+            "String Functions",
+            "Date and Time Functions",
+            "Mathematics and Statistics Functions",
+            "AVG()",
+            "COUNT()",
+            "The GROUP BY Statement",
+            "The HAVING Clause"
+          ],
+          "brief": "Explains built-in SQL functions, categorized as aggregate and scalar functions. Provides examples of common functions for string manipulation, date/time operations, and mathematical/statistical calculations."
+        },
+        {
+          "subsection_id": "S11.2",
+          "title": "User-defined Functions",
+          "sub_titles": [],
+          "brief": "Explains user-defined functions in SQL, including scalar and table functions. Compares stored procedures and functions, and demonstrates how to create and use user-defined functions."
+        }
+      ]
+    },
+    {
+      "section_id": "S12",
+      "title": "Triggers",
+      "brief": "Explains database triggers, which are code automatically executed in response to events on a table. Covers creating triggers, using the INSERTED and DELETED tables, and provides an example trigger for data validation.",
+      "subsections": []
+    },
+    {
+      "section_id": "S13",
+      "title": "Communication from other Applications",
+      "brief": "Discusses the importance of database communication with other applications and programming languages. Introduces ODBC (Open Database Connectivity) as a standardized interface for database access.",
+      "subsections": [
+        {
+          "subsection_id": "S13.1",
+          "title": "ODBC",
+          "sub_titles": [],
+          "brief": "Explains ODBC (Open Database Connectivity) as a standard interface for accessing databases from different vendors and programming languages."
+        },
+        {
+          "subsection_id": "S13.2",
+          "title": "Microsoft Excel",
+          "sub_titles": [],
+          "brief": "Describes how to retrieve data from SQL Server into Microsoft Excel."
+        }
+      ]
+    },
+    {
+      "section_id": "S14",
+      "title": "References",
+      "brief": "Provides a list of references, including websites and books, for further learning about SQL and SQL Server.",
+      "subsections": []
+    }
+  ]
+}

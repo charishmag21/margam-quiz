@@ -1,0 +1,148 @@
+{
+  "quiz": [
+    {
+      "question": "In reinforcement learning scenarios with delayed rewards, what is the primary benefit of incorporating random actions into an agent's policy?",
+      "options": [
+        "A) It guarantees the agent will find the optimal solution faster.",
+        "B) It allows the agent to explore a wider range of state-action pairs, potentially discovering better strategies.",
+        "C) It eliminates the need for a reward function.",
+        "D) It simplifies the learning process by reducing the number of possible actions."
+      ],
+      "answer": "B",
+      "difficulty": "intermediate",
+      "section_title": "Delayed-Reinforcement Learning",
+      "subsection_title": "Discussion, Limitations, and Extensions of Q-Learning",
+      "sub_title": "Using Random Actions"
+    },
+    {
+      "question": "In a clustering method based on Euclidean distance, how is the distance between two data points calculated?",
+      "options": [
+        "A) By summing the absolute differences of their corresponding features.",
+        "B) By taking the square root of the sum of the squared differences of their corresponding features.",
+        "C) By calculating the cosine of the angle between the two data points.",
+        "D) By counting the number of differing features between the two data points."
+      ],
+      "answer": "B",
+      "difficulty": "easy",
+      "section_title": "Unsupervised Learning",
+      "subsection_title": "Clustering Methods",
+      "sub_title": "A Method Based on Euclidean Distance"
+    },
+    {
+      "question": "What is the primary focus of the text based on its title and introductory information?",
+      "options": [
+        "A) Robotics and Computer Science at Stanford University",
+        "B) The development and application of machine learning techniques",
+        "C) Copyright law and intellectual property rights",
+        "D) The history of computer science and artificial intelligence"
+      ],
+      "answer": "B",
+      "difficulty": "easy",
+      "section_title": "Preliminaries",
+      "subsection_title": "Introduction",
+      "sub_title": ""
+    },
+    {
+      "question": "What is a primary motivation for using networks of Threshold Logic Units (TLUs) instead of single TLUs?",
+      "options": [
+        "A) Single TLUs can only classify linearly separable data, while networks can classify non-linearly separable data.",
+        "B) Networks of TLUs offer increased computational speed compared to single TLUs.",
+        "C) Single TLUs are prone to overfitting, a problem mitigated by using networks.",
+        "D) Networks of TLUs are easier to train using the Widrow-Hoff procedure."
+      ],
+      "answer": "A",
+      "difficulty": "intermediate",
+      "section_title": "Neural Networks",
+      "subsection_title": "Networks of TLUs",
+      "sub_title": "Motivation and Examples"
+    },
+    {
+      "question": "In the context of capacity and learning, a more general result links the probability of a large discrepancy between training error and true error to what?",
+      "options": [
+        "A) The size of the hypothesis space alone.",
+        "B) The training set size alone.",
+        "C) Both the size of the hypothesis space and the training set size.",
+        "D) The VC dimension of the hypothesis space and the training set size."
+      ],
+      "answer": "D",
+      "difficulty": "hard",
+      "section_title": "Computational Learning Theory",
+      "subsection_title": "The Vapnik-Chervonenkis Dimension",
+      "sub_title": "A More General Capacity Result"
+    },
+    {
+      "question": "In the context of inductive logic programming, what does an 'example' typically represent?",
+      "options": [
+        "A) A specific instance of a concept or relationship used for training or testing a learning algorithm.",
+        "B) A general rule or principle derived from a set of observations.",
+        "C) The entire dataset used for training a machine learning model.",
+        "D) A counter-example used to refine a learned hypothesis."
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "section_title": "Delayed-Reinforcement Learning",
+      "subsection_title": "An Example",
+      "sub_title": ""
+    },
+    {
+      "question": "Which statement best describes a Disjunctive Normal Form (DNF) function?",
+      "options": [
+        "A) A logical OR of multiple logical ANDs of literals.",
+        "B) A logical AND of multiple logical ORs of literals.",
+        "C) A logical XOR of multiple logical ANDs of literals.",
+        "D) A logical NOR of multiple logical ORs of literals."
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "section_title": "Boolean Functions",
+      "subsection_title": "Classes of Boolean Functions",
+      "sub_title": "DNF Functions"
+    },
+    {
+      "question": "Which of the following is NOT a valid representation of Boolean functions?",
+      "options": [
+        "A) Truth tables",
+        "B) Algebraic expressions using AND, OR, and NOT",
+        "C) Decision trees",
+        "D) Continuous probability distributions"
+      ],
+      "answer": "D",
+      "difficulty": "easy",
+      "section_title": "Boolean Functions",
+      "subsection_title": "",
+      "sub_title": ""
+    },
+    {
+      "question": "In the backpropagation algorithm, how are weight changes for hidden layers calculated?",
+      "options": [
+        "A) Directly from the error at the output layer.",
+        "B) By propagating the error signal back through the network and using the derivative of the activation function.",
+        "C) Using the same formula as for the output layer weights.",
+        "D) By randomly adjusting weights until the error decreases."
+      ],
+      "answer": "B",
+      "difficulty": "intermediate",
+      "section_title": "Neural Networks",
+      "subsection_title": "Training Feedforward Networks by Backpropagation",
+      "sub_title": "Computing Changes to the Weights in Intermediate Layers"
+    },
+    {
+      "question": "When a model learns the training data too well, capturing noise and irrelevant details, such that its performance on unseen data suffers, what phenomenon is occurring?",
+      "options": [
+        "A) Underfitting",
+        "B) Overfitting",
+        "C) Generalization",
+        "D) Regularization"
+      ],
+      "answer": "B",
+      "difficulty": "intermediate",
+      "section_title": "Decision Trees",
+      "subsection_title": "Overfitting and Evaluation",
+      "sub_title": "Overfitting"
+    }
+  ],
+  "total_questions": 10,
+  "source_pdf": "mi-intro.pdf",
+  "curriculum_file": "json_files/learning_path_skeleton_ml.json",
+  "output_file": "json_files/quiz_output_updates.json"
+}

@@ -1,0 +1,148 @@
+{
+  "quiz": [
+    {
+      "question": "In a database query, you need to find all entries where a text field starts with \"App\". Which wildcard character, used with the LIKE operator, would achieve this?",
+      "options": [
+        "A) %",
+        "B) _",
+        "C) *",
+        "D) ?"
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "section_title": "SELECT",
+      "subsection_title": "Wildcards",
+      "sub_title": ""
+    },
+    {
+      "question": "Which of the following SQL operations is NOT classified as Data Manipulation Language (DML)?",
+      "options": [
+        "A) INSERT",
+        "B) UPDATE",
+        "C) DELETE",
+        "D) CREATE"
+      ],
+      "answer": "D",
+      "difficulty": "easy",
+      "section_title": "Introduction to SQL",
+      "subsection_title": "Data Manipulation Language (DML)",
+      "sub_title": ""
+    },
+    {
+      "question": "What technology allows external applications to communicate with and access data stored within a database management system (DBMS) using SQL?",
+      "options": [
+        "A) Stored Procedures",
+        "B) ODBC",
+        "C) Triggers",
+        "D) User-defined Functions"
+      ],
+      "answer": "B",
+      "difficulty": "easy",
+      "section_title": "Communication from other Applications",
+      "subsection_title": "ODBC",
+      "sub_title": ""
+    },
+    {
+      "question": "Which of the following is NOT a typical way to interact with a SQL database from Microsoft Excel?",
+      "options": [
+        "A) Using a data connection to query and retrieve data.",
+        "B) Directly embedding SQL queries within cell formulas.",
+        "C) Utilizing Power Query to import and transform data.",
+        "D) Writing VBA code to execute SQL statements."
+      ],
+      "answer": "B",
+      "difficulty": "intermediate",
+      "section_title": "Communication from other Applications",
+      "subsection_title": "Microsoft Excel",
+      "sub_title": ""
+    },
+    {
+      "question": "You have a table representing customers with columns for customer ID, name, email, and phone number. You want to ensure that each customer has a unique email address and that it's always provided. Which constraint(s) should you use?",
+      "options": [
+        "A) PRIMARY KEY on email",
+        "B) UNIQUE and NOT NULL on email",
+        "C) FOREIGN KEY on email",
+        "D) CHECK on email"
+      ],
+      "answer": "B",
+      "difficulty": "intermediate",
+      "section_title": "CREATE TABLE",
+      "subsection_title": "SQL Constraints",
+      "sub_title": ""
+    },
+    {
+      "question": "A PRIMARY KEY constraint is used for what purpose?",
+      "options": [
+        "A) To ensure that all columns in a table have a value.",
+        "B) To uniquely identify each row in a table.",
+        "C) To establish a relationship between two tables.",
+        "D) To restrict the data type of a column."
+      ],
+      "answer": "B",
+      "difficulty": "easy",
+      "section_title": "CREATE TABLE",
+      "subsection_title": "SQL Constraints",
+      "sub_title": "PRIMARY KEY"
+    },
+    {
+      "question": "You need to retrieve data from two tables, but only include rows where a matching value exists in both tables based on a shared column. Which JOIN type should you use?",
+      "options": [
+        "A) LEFT JOIN",
+        "B) RIGHT JOIN",
+        "C) FULL OUTER JOIN",
+        "D) INNER JOIN"
+      ],
+      "answer": "D",
+      "difficulty": "easy",
+      "section_title": "SELECT",
+      "subsection_title": "Joins",
+      "sub_title": "Different SQL JOINs"
+    },
+    {
+      "question": "Which of the following best describes the primary purpose of a user-defined function in SQL?",
+      "options": [
+        "A) To encapsulate a set of SQL statements that can be reused, accepting input parameters and returning a single value.",
+        "B) To automatically execute a block of code when data is modified in a table.",
+        "C) To create a virtual table based on the result set of an SQL query.",
+        "D) To control the flow of execution in a stored procedure using conditional logic."
+      ],
+      "answer": "A",
+      "difficulty": "intermediate",
+      "section_title": "Functions",
+      "subsection_title": "User-defined Functions",
+      "sub_title": ""
+    },
+    {
+      "question": "You have a table named 'Customers' with a column 'City'.  Several customers reside in the same city. You want to retrieve a list of all the unique cities present in the 'Customers' table. Which SQL keyword would you use to achieve this?",
+      "options": [
+        "A) UNIQUE",
+        "B) DISTINCT",
+        "C) DIFFERENT",
+        "D) ONLY"
+      ],
+      "answer": "B",
+      "difficulty": "easy",
+      "section_title": "SELECT",
+      "subsection_title": "SELECT DISTINCT",
+      "sub_title": ""
+    },
+    {
+      "question": "In SQL, what is the primary function of an IF-ELSE statement?",
+      "options": [
+        "A) To define variables for later use in queries.",
+        "B) To conditionally execute a block of code based on a boolean expression.",
+        "C) To loop through a set of results until a condition is met.",
+        "D) To join two tables based on a common column."
+      ],
+      "answer": "B",
+      "difficulty": "easy",
+      "section_title": "SQL Scripts",
+      "subsection_title": "Flow Control",
+      "sub_title": "IF \u2013 ELSE"
+    }
+  ],
+  "total_questions": 10,
+  "source_pdf": "sql.pdf",
+  "curriculum_file": "json_files/learning_path_skeleton_sql.json",
+  "output_file": "json_files/quiz_output_sql.json"
+}
